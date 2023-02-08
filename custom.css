@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-    background-image: linear-gradient(315deg, #2a2a72 0% blue 74%);
+    background-image: #ff3a22;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,10 +18,10 @@ body {
 }
 
 input {
-    background-color: #0f9b00;
+    background-color: #ff3a22;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: #ff3a22;
     color: white;
     font-family: inherit;
     font-size: 1rem;
@@ -39,8 +39,8 @@ input:focus {
 }
 
 .card {
-    background-color: #0b2bde;
-    background-image: linear-gradient(315deg, #4c2885 0%, #4c11ac 100%);
+    background-color: #ff3a22;
+    background-image: #ff3a22;
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -49,7 +49,7 @@ input:focus {
 }
 
 .avatar {
-    border: 10px solid #2a2a72;
+    border: 10px solid white;
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -84,7 +84,7 @@ input:focus {
 }
 
 .repo {
-    background-color: #2a2a72;
+    background-color: black;
     border-radius: 5px;
     display: inline-block;
     color: white;
@@ -94,3 +94,12 @@ input:focus {
     margin-bottom: 0.5rem;
     text-decoration: none;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #45a1ff;
+    color: white;
+    text-align: center;
+ }
